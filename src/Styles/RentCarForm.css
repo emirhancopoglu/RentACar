@@ -1,0 +1,80 @@
+.formcontainer {
+  background-color: #fff;
+  border-radius: 5px;
+  color: #010103;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding: 4rem 4.5rem 5rem 5.5rem;
+  margin-top: 9rem;
+}
+
+.formdiv {
+  grid-gap: 2rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  color: #ff4d30;
+  width: 60rem;
+}
+select {
+  width: auto;
+  height: 3rem;
+  color: #504f4f;
+  font-weight: 600;
+  border: 1px solid #ccd7e6;
+  border-radius: 3px;
+}
+input {
+  width: auto;
+  height: 3rem;
+  color: #504f4f;
+  font-weight: 600;
+  border: 1px solid #ccd7e6;
+  border-radius: 3px;
+}
+
+.selectcar {
+  display: flex;
+  flex-direction: column;
+}
+.selectcity {
+  display: flex;
+  flex-direction: column;
+}
+.selectcityback {
+  display: flex;
+  flex-direction: column;
+}
+.selectrentdate {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.selectrentdateback {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.sendbutton {
+  align-self: self-end;
+  background-color: #ff4d30;
+  border: none;
+  box-shadow: 0 10px 15px rgba(255, 83, 48, 0.35);
+  color: #fff;
+  cursor: pointer;
+  font-family: Rubik, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  height: -moz-fit-content;
+  height: -webkit-fit-content;
+  height: fit-content;
+  padding: 1.3rem;
+  transition: all 0.9s;
+}
+.sendbutton:hover {
+  box-shadow: 0 10px 15px rgba(255, 83, 48, 0.55);
+  transition: all 0.4s;
+}

@@ -1,0 +1,59 @@
+.header {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.headerlogo img {
+  width: 100%;
+  height: 100%;
+}
+.headerlinks {
+  text-decoration: none;
+  list-style-type: none;
+}
+.headerlinks li {
+  display: inline;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1rem;
+}
+.headerlinks a {
+  text-decoration: none;
+  color: black;
+}
+
+.headerbutton {
+  margin-left: 5rem;
+}
+
+.headersignup {
+  font-size: 1rem;
+  font-weight: 500;
+  color: black;
+  border: none;
+  background-color: white;
+  margin-right: 2rem;
+  cursor: pointer;
+  transition: all 0.9s;
+}
+.headersignup:hover {
+  color: orangered;
+  transition: all 0.3s;
+}
+.headerlogin {
+  font-size: 1.3rem;
+  color: white;
+  background-color: orangered;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 5%;
+  cursor: pointer;
+  transition: all 0.9s;
+}
+.headerlogin:hover {
+  box-shadow: 0 10px 15px rgba(255, 83, 48, 0.55);
+  transition: all 0.4s;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
