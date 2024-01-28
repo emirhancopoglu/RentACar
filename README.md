@@ -68,3 +68,33 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##
+[websitevideo.webm](https://github.com/emirhancopoglu/RentACar-ReactJS/assets/95498082/10f29378-37b7-4dbb-96e5-ab60e7f378e4)
+
+
+
+##
+### Anasayfa
+<b>Ziyaretçi web sayfasına girdiğinde karşısına ilk çıkan görüntü ; </b>
+![HomePage](https://github.com/emirhancopoglu/RentACar-ReactJS/assets/95498082/0a5819c2-f81b-4af8-8bbf-acc981cea8cc)
+
+##
+### Araç kiralama paneli
+<b>Ziyaretçi web sayfasında aşağı kaydırdığında araç kiralama paneli ve firma sloganlarını görüyor.
+![RentAndContact](https://github.com/emirhancopoglu/RentACar-ReactJS/assets/95498082/aae80be8-a7a0-47ce-a2cd-5e79800bc5af)
+##
+### Sıkça sorulan sorular
+<b> Sıkça sorulan sorular anasayfada yer verilmiştir.
+![FAQ](https://github.com/emirhancopoglu/RentACar-ReactJS/assets/95498082/0268b024-b210-4359-a900-32c629b25d88)
+##
+### Footer
+<b> Footer </b>
+![footer](https://github.com/emirhancopoglu/RentACar-ReactJS/assets/95498082/451a4780-dc59-4bf4-8b41-ff7d9fe0b6e4)
+
+##
+<ul>
+  <li>
+    Şuanlık sadece tasarım yapıldı , buton etkileşimleri , giriş çıkış işlemleri aktif değil
+  </li>
+  
+</ul>
