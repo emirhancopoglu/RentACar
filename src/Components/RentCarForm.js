@@ -1,5 +1,5 @@
 import React from "react";
-import RentCarFormCss from "../Styles/RentCarForm.css";
+import "../Styles/RentCarForm.css";
 
 const RentCarForm = () => {
   return (

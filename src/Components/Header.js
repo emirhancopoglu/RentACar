@@ -1,6 +1,7 @@
 import React from "react";
 import carrental from "../Assets/carrental.png";
-import HeaderStyle from "../Styles/HeaderStyle.css";
+import "../Styles/HeaderStyle.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -14,26 +15,30 @@ const Header = () => {
         <a href="/">
           <li>Anasayfa</li>
         </a>
-        <a href="/">
+        <Link to="/about">
           <li>Hakkımızda</li>
-        </a>
-        <a href="/">
+        </Link>
+
+        <Link to="/carmodels">
           <li>Araç Modelleri</li>
-        </a>
-        <a href="/">
-          <li>Takımımız</li>
-        </a>
-        <a href="/">
+        </Link>
+
+        <Link to="/team">
+          <li>Ekibimiz</li>
+        </Link>
+
+        <Link to="/contact">
           <li>İletişim</li>
-        </a>
+        </Link>
       </ul>
       <div className="headerbutton">
-        <a href="">
+        <Link to="/signup">
           <button className="headersignup">Kaydol</button>
-        </a>
-        <a href="">
+        </Link>
+
+        <Link to="/login">
           <button className="headerlogin">Giriş</button>
-        </a>
+        </Link>
       </div>
     </div>
   );

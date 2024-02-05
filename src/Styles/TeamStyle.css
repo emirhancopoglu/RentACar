@@ -1,0 +1,35 @@
+.crewcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 6rem;
+  margin-top: 7rem;
+}
+.crewmember {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.08);
+}
+.crewmemberdesc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.crewmemberimg {
+  background-color: #f3eded;
+  width: 100%;
+}
+
+.crewmemberdesc h5 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.crewmemberdesc h6 {
+  font-size: 1rem;
+  color: #777;
+  font-weight: 500;
+  margin-top: 0.2rem;
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import Footercss from "../Styles/FooterStyle.css";
+import "../Styles/FooterStyle.css";
 const Footer = () => {
   return (
     <div className="footercontainer">
@@ -46,7 +46,7 @@ const Footer = () => {
           <li className="footersubscribe">Abonelik</li>
           <li>
             <li className="footersubscribep">
-              Email adresini yazıp indirim ve güncellemelerin bilgilerini sms
+              Email adresini yazıp indirim ve güncellemelerin bilgilerini mail
               olarak alabilirsin.
             </li>
           </li>
@@ -54,7 +54,7 @@ const Footer = () => {
             <input className="footeremail" type="email" placeholder=" Email" />
           </li>
           <li>
-            <button class="submit-email">Gönder</button>
+            <button className="submit-email">Gönder</button>
           </li>
         </ul>
       </div>

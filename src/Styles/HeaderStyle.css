@@ -57,3 +57,7 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+.headerlinks li:hover {
+  color: orangered;
+  transition: all 0.3s;
+}

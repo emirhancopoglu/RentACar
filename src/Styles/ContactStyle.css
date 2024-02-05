@@ -1,0 +1,92 @@
+.contactinformation {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  max-width: 34rem;
+}
+.contactformcontainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 35rem;
+}
+
+.contact-div {
+  display: flex;
+  justify-content: space-between;
+  max-width: 72rem;
+  gap: 15rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.contactinformation h5 {
+  font-size: 3.2rem;
+  margin-bottom: 0rem;
+}
+
+.contactinformation p {
+  margin-bottom: 1rem;
+}
+
+.contactinformation a {
+  color: #010103;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.contactinformation a:hover {
+  color: #fa4226;
+  transition: all 0.3s;
+}
+
+.contactformcontainer form {
+  display: flex;
+  flex-direction: column;
+  max-width: 50rem;
+}
+.contactformcontainer label {
+  color: black;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+.contactformcontainer input {
+  width: 25rem;
+  height: 3rem;
+  border: none;
+  background-color: #f2f2f2;
+  outline: none;
+}
+.contactformcontainer textarea {
+  background-color: #f2f2f2;
+  outline: none;
+  border: none;
+  height: 18rem;
+  margin-bottom: 2.5rem;
+}
+
+.contactformcontainer button {
+  background-color: #ff4d30;
+  border: 2px solid #ff4d30;
+  border-radius: 0.3rem;
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1rem 3rem;
+  transition: all 0.3s;
+}
+.contactformcontainer button:hover {
+  background-color: #fa4226;
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.6);
+}
+.body {
+  font-family: "Poppins", sans-serif;
+}

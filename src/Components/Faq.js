@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import FaqStyle from "../Styles/FaqStyle.css";
+import "../Styles/FaqStyle.css";
 
 const Faq = () => {
   const accordionData = [

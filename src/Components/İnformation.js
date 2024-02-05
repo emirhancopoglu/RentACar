@@ -2,7 +2,7 @@ import React from "react";
 import carkey from "../Assets/carkey.png";
 import operator from "../Assets/operator.png";
 import car from "../Assets/car.png";
-import İnformationcss from "../Styles/İnformation.css";
+import "../Styles/İnformation.css";
 
 const İnformation = () => {
   return (

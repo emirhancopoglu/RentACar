@@ -68,6 +68,10 @@ li.footercompanyname {
   transition: all 0.3s;
   width: 10rem;
 }
+.submit-email:hover {
+  box-shadow: 0 10px 15px rgba(255, 83, 48, 0.55);
+  transition: all 0.4s;
+}
 .carrentalp {
   color: #706f7b;
   font-size: 1rem;
@@ -90,6 +94,7 @@ li.footercompanyname {
   font-weight: 600;
   border: 1px solid #ccd7e6;
   border-radius: 3px;
+  outline: none;
 }
 a {
   text-decoration: none;
