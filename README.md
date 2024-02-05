@@ -69,32 +69,34 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 ##
-[websitevideo.webm](https://github.com/emirhancopoglu/RentACar-ReactJS/assets/95498082/10f29378-37b7-4dbb-96e5-ab60e7f378e4)
+
 
 
 
 ##
 ### Anasayfa
 <b>Ziyaretçi web sayfasına girdiğinde karşısına ilk çıkan görüntü ; </b>
-![HomePage](https://github.com/emirhancopoglu/RentACar-ReactJS/assets/95498082/0a5819c2-f81b-4af8-8bbf-acc981cea8cc)
+
+
+
+https://github.com/emirhancopoglu/RentACar-ReactJS/assets/95498082/bbe7f55e-133d-4923-9be1-869b773f28a0
+
 
 ##
-### Araç kiralama paneli
-<b>Ziyaretçi web sayfasında aşağı kaydırdığında araç kiralama paneli ve firma sloganlarını görüyor.
-![RentAndContact](https://github.com/emirhancopoglu/RentACar-ReactJS/assets/95498082/aae80be8-a7a0-47ce-a2cd-5e79800bc5af)
-##
-### Sıkça sorulan sorular
-<b> Sıkça sorulan sorular anasayfada yer verilmiştir.
-![FAQ](https://github.com/emirhancopoglu/RentACar-ReactJS/assets/95498082/0268b024-b210-4359-a900-32c629b25d88)
-##
-### Footer
-<b> Footer </b>
-![footer](https://github.com/emirhancopoglu/RentACar-ReactJS/assets/95498082/451a4780-dc59-4bf4-8b41-ff7d9fe0b6e4)
+### Hakkımızda
+https://github.com/emirhancopoglu/RentACar-ReactJS/assets/95498082/97ffff8e-6e71-441b-806f-454bbf82bf13
 
 ##
-<ul>
-  <li>
-    Şuanlık sadece tasarım yapıldı , buton etkileşimleri , giriş çıkış işlemleri aktif değil
-  </li>
-  
-</ul>
+### Araç Modelleri
+https://github.com/emirhancopoglu/RentACar-ReactJS/assets/95498082/a9eee761-d825-43a6-971d-d48b6c33d4cf
+
+
+##
+### Ekibimiz
+https://github.com/emirhancopoglu/RentACar-ReactJS/assets/95498082/69b21102-e545-414a-b779-78905431e7df
+
+##
+### iletişim
+https://github.com/emirhancopoglu/RentACar-ReactJS/assets/95498082/7fae6036-a178-452f-914e-9a80152b3a2e
+
+
