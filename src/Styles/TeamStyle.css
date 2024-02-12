@@ -33,3 +33,49 @@
   font-weight: 500;
   margin-top: 0.2rem;
 }
+
+@media (max-width: 820px) and (min-width: 401px) {
+  .crewcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .crewmember {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 400px) and (min-width: 240px) {
+  .crewcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .crewmember {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1254px) and (min-width: 821px) {
+  .teamcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  .crewmemberimg {
+    display: flex;
+    justify-content: center;
+  }
+  .crewcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .crewmember {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}

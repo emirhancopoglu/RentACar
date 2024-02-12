@@ -78,3 +78,58 @@ input {
   box-shadow: 0 10px 15px rgba(255, 83, 48, 0.55);
   transition: all 0.4s;
 }
+/*
+@media (max-width: 768px) {
+  .formcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .formdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sendbutton {
+  }
+}
+*/
+@media (max-width: 768px) and (min-width: 320px) {
+  .formdiv {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .formdiv button {
+    width: 100%;
+  }
+  .formdiv input {
+    width: 9.62rem;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .formdiv {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .formdiv button {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 20rem;
+  }
+  .sendbutton div {
+    justify-content: center;
+  }
+  .formdiv input {
+    width: 9.62rem;
+  }
+}

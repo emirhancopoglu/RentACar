@@ -47,7 +47,9 @@ const RentCarForm = () => {
             <label>Dönüş tarihi</label>
             <input type="date"></input>
           </div>
-          <button className="sendbutton">Bul</button>
+          <button className="sendbutton">
+            <div>Bul</div>
+          </button>
         </form>
       </div>
     </div>

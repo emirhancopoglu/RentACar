@@ -90,3 +90,81 @@
 .body {
   font-family: "Poppins", sans-serif;
 }
+
+@media (max-width: 820px) and (min-width: 401px) {
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactinformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactformcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactinformation h5 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) and (min-width: 240px) {
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactinformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactformcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactformcontainer form input {
+    width: 100%;
+  }
+  .contactinformation h5 {
+    text-align: center;
+  }
+}

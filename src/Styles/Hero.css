@@ -54,3 +54,33 @@ span {
   box-shadow: 0 10px 15px rgba(20, 20, 20, 0.55);
   transition: all 0.4s;
 }
+
+@media (max-width: 768px) and (min-width: 320px) {
+  .herocontainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .herocar {
+    width: 100%;
+  }
+  .herotext h1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .herocontainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .herocar {
+    width: 100%;
+  }
+  .herotext h1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
