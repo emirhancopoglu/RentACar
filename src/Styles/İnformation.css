@@ -8,7 +8,10 @@
 .companyslogan {
   text-align: center;
 }
-p {
+.infoselectcarh {
+  font-size: 1.5rem;
+}
+.infoselectcarp {
   color: #706f7b;
   margin-left: 4rem;
   font-size: 1rem;

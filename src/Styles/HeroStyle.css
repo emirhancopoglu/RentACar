@@ -13,14 +13,14 @@
   justify-content: space-evenly;
   align-items: center;
 }
-h4 {
+.herotext h4 {
   font-size: 25px;
   font-weight: 600;
   color: black;
   height: 0.1rem;
 }
 
-span {
+.herotext span {
   color: orangered;
   font-weight: bolder;
 }
