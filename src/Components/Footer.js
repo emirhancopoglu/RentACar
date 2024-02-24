@@ -23,6 +23,7 @@ const Footer = () => {
         </ul>
         <ul className="footercontent2">
           <li className="footercompanyname">Şirket</li>
+
           <li>
             <a href="/"> İstanbul</a>
           </li>

@@ -10,23 +10,27 @@ const MobileHeader = () => {
     <div className="mobileheadercontainer">
       <div className="mobileheader-second">
         <div className="headerlogo">
-          <div className="headerlogo-headertoggle">
-            <a href="/">
-              <img src={carrental} alt="Car Rental Logo"></img>
-            </a>
-            <label
-              for="menu-toggle"
-              className="menu-icon"
-              onClick={() => {
-                setMenuOpen(!menuOpen);
-              }}
-            >
-              ☰
-            </label>
+          <div className="headersecondlogo">
+            <div className="headerlogo-headertoggle">
+              <a href="/">
+                <img src={carrental} alt="Car Rental Logo"></img>
+              </a>
+              <label
+                for="menu-toggle"
+                className="menu-icon"
+                onClick={() => {
+                  setMenuOpen(!menuOpen);
+                }}
+              >
+                ☰
+              </label>
+            </div>
           </div>
           <div className="mobileheaderlinks">
             <ul className={menuOpen ? "open" : ""}>
-              <li>Anasayfa </li>
+              <Link to={"/"}>
+                <li>Anasayfa </li>{" "}
+              </Link>
               <Link to={"/about"}>
                 <li>Hakkımızda </li>
               </Link>

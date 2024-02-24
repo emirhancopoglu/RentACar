@@ -18,12 +18,12 @@
 
 .footerul {
   list-style: none;
-  width: 30rem;
+  width: 16rem;
 }
 
 .footerul h4 {
+  margin: 38.304px 0px 0px 0px;
   font-size: 1.8rem;
-  margin-top: 2rem;
 }
 
 .footerul li {
@@ -35,9 +35,14 @@
   list-style: none;
   margin: 0;
   padding: 3rem;
-  width: 15rem;
+  width: 16rem;
 }
-
+.footercontent3 li {
+  text-align: center;
+}
+.footercontent2 li {
+  text-align: center;
+}
 element.style {
   padding-left: 0;
 }
@@ -46,11 +51,11 @@ element.style {
   margin-bottom: 1rem;
 }
 .footercompanyname {
-  font-weight: 600;
+  font-weight: 800;
   font-size: 1.8rem;
 }
 .footerworkhours {
-  font-weight: 600;
+  font-weight: 800;
   font-size: 1.8rem;
 }
 li.footercompanyname {
@@ -66,7 +71,7 @@ li.footercompanyname {
   font-weight: 500;
   padding: 1rem;
   transition: all 0.3s;
-  width: 10rem;
+  width: 100%;
 }
 .submit-email:hover {
   box-shadow: 0 10px 15px rgba(255, 83, 48, 0.55);
@@ -75,10 +80,10 @@ li.footercompanyname {
 .carrentalp {
   color: #706f7b;
   font-size: 1rem;
-  width: 55%;
+  width: 100%;
 }
 .footersubscribe {
-  font-weight: 600;
+  font-weight: 800;
   font-size: 1.8rem;
 }
 .footersubscribep {
@@ -137,6 +142,9 @@ a {
     flex-direction: column;
     align-items: center;
   }
+  .footercontent li {
+    text-align: center;
+  }
   .footerworkhours {
     display: flex;
     text-align: center;
@@ -145,6 +153,18 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .submit-email {
+    background-color: #ff4d30;
+    border: none;
+    box-shadow: 0 10px 15px rgba(255, 83, 48, 0.35);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+    transition: all 0.3s;
+    width: 15rem;
   }
 }
 @media (max-width: 1024px) and (min-width: 768px) {
@@ -164,6 +184,7 @@ a {
     align-items: center;
     width: 100%;
   }
+
   .footercontainer {
     display: flex;
     flex-direction: column;
