@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bc4ea354.css",
+    "main.js": "/static/js/main.2213274e.js",
+    "static/media/herocar.png": "/static/media/herocar.f5b2a36d41732b2bf351.png",
+    "static/media/withcustomer.jpg": "/static/media/withcustomer.b10bf7bc243d16648674.jpg",
+    "static/media/passat.jpg": "/static/media/passat.1e7e7d05c55b5c94eece.jpg",
+    "static/media/companyface1.jpg": "/static/media/companyface1.a4392262a01e0b175153.jpg",
+    "static/media/crew3.png": "/static/media/crew3.1d499e4b69de7b9e10fb.png",
+    "static/media/crew2.png": "/static/media/crew2.f41d050c1c5b9e59fc22.png",
+    "static/media/crew4.png": "/static/media/crew4.0e752081a69322c59b26.png",
+    "static/media/crew6.png": "/static/media/crew6.528b8c60ae315bc6a52a.png",
+    "static/media/clio.jpg": "/static/media/clio.f7ffb47286c0901060e6.jpg",
+    "static/media/crew1.png": "/static/media/crew1.4ba4d772bcd6e82365e8.png",
+    "static/media/wwgolf.jpg": "/static/media/wwgolf.3a3e86d2722afe7e03ad.jpg",
+    "static/media/crew5.png": "/static/media/crew5.e46bcc8b44d7c4298aea.png",
+    "static/media/megan.jpg": "/static/media/megan.8da561ae195f0803cde2.jpg",
+    "static/media/audi.jpg": "/static/media/audi.2441719dce5ba365193a.jpg",
+    "static/media/car.png": "/static/media/car.bb4626be73e92d85043b.png",
+    "static/media/carrental.png": "/static/media/carrental.6c1b07244abd7460f49f.png",
+    "static/media/bmw.jpg": "/static/media/bmw.0edf8a09c21a15eb80b5.jpg",
+    "index.html": "/index.html",
+    "main.bc4ea354.css.map": "/static/css/main.bc4ea354.css.map",
+    "main.2213274e.js.map": "/static/js/main.2213274e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc4ea354.css",
+    "static/js/main.2213274e.js"
+  ]
+}
