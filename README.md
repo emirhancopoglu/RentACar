@@ -71,10 +71,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ##
 
 
+  <h1>LİVE DEMO : <a href="https://rentcarwithreact.netlify.app"> RENT A CAR</a></h1>
 
-
-##
-### Anasayfa
+ ### Anasayfa
 <b>Ziyaretçi web sayfasına girdiğinde karşısına ilk çıkan görüntü ; </b>
 
 
