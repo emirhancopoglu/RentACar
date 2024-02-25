@@ -76,4 +76,7 @@
   .mobileheaderlinks {
     display: flex;
   }
+  .mobileheaderlinks li {
+    font-weight: 500;
+  }
 }

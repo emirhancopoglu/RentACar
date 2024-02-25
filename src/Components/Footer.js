@@ -52,7 +52,7 @@ const Footer = () => {
             </li>
           </li>
           <li>
-            <input className="footeremail" type="email" placeholder=" Email" />
+            <input className="footeremail" type="email" />
           </li>
           <li>
             <button className="submit-email">Gönder</button>

@@ -13,7 +13,9 @@ const Signup = () => {
             <input type="date" placeholder="Doğum tarihi" />
             <input type="text" placeholder="0 5** *** ** **" />
             <input type="password" placeholder="Şifre" id="password" />
-            <button id="signup-button">Kaydol</button>
+            <a href="/">
+              <button id="signup-button">Kaydol</button>
+            </a>
           </form>
         </div>
       </div>

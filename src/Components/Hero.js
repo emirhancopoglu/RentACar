@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="herocontainer">
       <div className="herotext">
-        <h4>Gezini şimdi planla</h4>
+        <h4>Gezini Şimdi Planla</h4>
 
         <h1>
           <span>Uygun</span> fiyatlarla istediğin aracı kirala!

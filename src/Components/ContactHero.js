@@ -23,7 +23,10 @@ const ContactHero = () => {
             <input type="text" required></input>
             <label>Açıklamanız</label>
             <textarea id="textarea"></textarea>
-            <button>Gönder</button>
+
+            <a href="/">
+              <button>Gönder</button>
+            </a>
           </form>
         </div>
       </div>

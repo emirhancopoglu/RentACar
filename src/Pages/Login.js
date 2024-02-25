@@ -10,8 +10,9 @@ const Login = () => {
             <form className="kayit" id="signup-form">
               <input type="text" placeholder="TC Kimlik No" id="username" />
               <input type="password" placeholder="Şifre" id="password" />
-
-              <button id="signup-button">GİRİŞ</button>
+              <a href="/">
+                <button id="signup-button">GİRİŞ</button>
+              </a>
             </form>
           </div>
         </div>

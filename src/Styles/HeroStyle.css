@@ -55,6 +55,29 @@
   transition: all 0.4s;
 }
 
+@media (max-width: 371px) and (min-width: 322px) {
+  .selectbutton {
+    font-size: 1.3rem;
+    color: white;
+    background-color: orangered;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: all 0.9s;
+  }
+  .detailsbutton {
+    font-size: 1.3rem;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-left: 2rem;
+    padding: 10px 30px;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: all 0.9s;
+  }
+}
 @media (max-width: 768px) and (min-width: 320px) {
   .herocontainer {
     display: flex;
@@ -71,7 +94,6 @@
     text-align: center;
   }
 }
-
 @media (max-width: 1024px) and (min-width: 768px) {
   .herocontainer {
     display: flex;

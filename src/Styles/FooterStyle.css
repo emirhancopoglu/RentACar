@@ -126,12 +126,13 @@ a {
     display: flex;
     flex-direction: column;
     width: auto;
+    align-items: center;
+    align-content: center;
   }
   .footerul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
   }
 
   .carrentalp {
@@ -195,6 +196,9 @@ a {
     flex-direction: column;
     align-items: center;
     width: 100%;
+  }
+  .carrentalp {
+    text-align: center;
   }
   .footercontent2 {
     display: flex;

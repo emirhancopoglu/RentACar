@@ -82,6 +82,7 @@
   font-weight: 600;
   padding: 1rem 3rem;
   transition: all 0.3s;
+  width: 100%;
 }
 .contactformcontainer button:hover {
   background-color: #fa4226;
