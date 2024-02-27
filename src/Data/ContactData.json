@@ -1,0 +1,16 @@
+{
+  "ContactData": [
+    {
+      "whowearedata": {
+        "title": "Biz Kimiz?",
+        "text": "Rent A Car, müşterilerine güvenilir, konforlu ve özel bir araç kiralama deneyimi sunan öncü bir şirkettir. Rent A Car sektördeki uzmanlığı ve müşteri odaklı hizmet anlayışıyla bilinir.",
+        "text-second": "Sektörde lider bir araç kiralama markası olma hedefiyle, müşteri beklentilerini aşan kaliteli hizmetler sunarak, sürekli gelişmeyi ve yeniliği benimsemekteyiz. Rent A Car, müşteri odaklı yaklaşımıyla sektörde öncü olmayı sürdürecek ve müşterilerine değer katmaya devam edecektir."
+      },
+      "whowearedatasecond": {
+        "title": "Gezini Şimdi Planla",
+        "text": "Müşteri memnuniyetini en üst düzeye çıkarmak ve her bir müşterimize özel bir araç kiralama deneyimi sunmak için buradayız. Rent A Car, her müşterisinin ihtiyaçlarına özel çözümler sunarak, seyahatlerini daha keyifli ve sorunsuz hale getirmeyi amaçlamaktadır.",
+        "text-second": "Güvenilir ve profesyonel hizmet anlayışı\nGeniş ve çeşitli araç filosu\nRekabetçi fiyatlar ve esnek ödeme seçenekleri\n7/24 müşteri destek hizmeti"
+      }
+    }
+  ]
+}
