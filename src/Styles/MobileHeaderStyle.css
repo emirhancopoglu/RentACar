@@ -1,82 +1,95 @@
-.mobileheadercontainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-.mobileheader-second {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+.hamburgermenuclass {
+  width: 100%;
 }
 
-.headersecondlogo {
+.App-header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6px;
+  background-color: white;
+}
+
+.menu-toggle {
+  cursor: pointer;
+  font-size: 36px;
+  color: black;
+}
+.menu-toggle:active {
+  color: orangered;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #ff7a4a;
+  transition: transform 0.3s ease;
+  transform: translateX(-100%);
+  z-index: 1000;
+}
+
+.menu.open {
+  transform: translateX(0);
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 3rem;
+  color: white;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.headerlogo img {
-  width: 5rem;
-  height: 5rem;
-}
-.menu-icon {
-  font-size: 2rem;
+.menu ul li {
+  margin-bottom: 20px;
 }
 
-* {
-  font-family: "Poppins", sans-serif;
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 26px;
+  font-weight: 500;
 }
 
-@media (max-width: 9999px) and (min-width: 1001px) {
-  .mobileheadercontainer {
+.menu ul li a:hover {
+  color: #f0f0f0;
+}
+
+.left-content {
+  display: flex;
+  flex: 1 1;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.left-content img {
+  width: 9rem;
+  height: 9rem;
+}
+
+.right-content {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 769px) {
+  .hamburgermenuclass {
     display: none;
-  }
-}
-
-@media (max-width: 1000px) and (min-width: 320px) {
-  .mobileheadercontainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .headerlogo-headertoggle {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  .mobileheader-second {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-  }
-  ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-  ul li {
-    margin: 0.2rem;
-    color: black;
-    font-weight: 500;
-  }
-  .mobileheadercontainer ul {
-    display: none;
-  }
-  .mobileheadercontainer ul.open {
-    display: flex;
-  }
-  .mobileheaderlinks {
-    display: flex;
-  }
-  .mobileheaderlinks li {
-    font-weight: 500;
   }
 }
