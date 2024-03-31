@@ -4,7 +4,10 @@
   flex-wrap: nowrap;
   justify-content: center;
   gap: 6rem;
-  margin-top: 7rem;
+}
+.teamcontainer {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
 }
 .crewmember {
   display: flex;
@@ -22,7 +25,10 @@
   background-color: #f3eded;
   width: 100%;
 }
-
+.crewmemberimg img {
+  width: 100%;
+  height: 100%;
+}
 .crewmemberdesc h5 {
   font-size: 1rem;
   font-weight: 600;
