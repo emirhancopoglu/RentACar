@@ -1,7 +1,7 @@
 import React from "react";
 import WhoWeAre from "../Components/WhoWeAre";
 import Header from "../Components/Header";
-import İnformation from "../Components/İnformation";
+import Information from "../Components/Information";
 import Footer from "../Components/Footer";
 import MobileHeader from "../Components/MobileHeader";
 const About = () => {
@@ -10,7 +10,7 @@ const About = () => {
       <MobileHeader />
       <Header />
       <WhoWeAre />
-      <İnformation />
+      <Information />
       <Footer />
     </div>
   );

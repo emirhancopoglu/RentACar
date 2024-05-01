@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../Components/Header";
 import Hero from "../Components/Hero";
 import RentCarForm from "../Components/RentCarForm";
-import İnformation from "../Components/İnformation";
+import Information from "../Components/Information";
 import Faq from "../Components/Faq";
 import Footer from "../Components/Footer";
 import MobileHeader from "../Components/MobileHeader";
@@ -14,7 +14,7 @@ const Home = () => {
       <Header />
       <Hero />
       <RentCarForm />
-      <İnformation />
+      <Information />
       <Faq />
       <Footer />
     </div>
