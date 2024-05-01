@@ -1,5 +1,5 @@
 import React from "react";
-import herocar from "../Assets/herocar.png";
+import herocar from "../Assets//Hero/herocar.png";
 import "../Styles/HeroStyle.css";
 
 const Hero = () => {

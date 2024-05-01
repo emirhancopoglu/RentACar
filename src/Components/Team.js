@@ -1,10 +1,10 @@
 import React from "react";
-import crew1 from "../Assets/crew1.png";
-import crew2 from "../Assets/crew2.png";
-import crew3 from "../Assets/crew3.png";
-import crew4 from "../Assets/crew4.png";
-import crew5 from "../Assets/crew5.png";
-import crew6 from "../Assets/crew6.png";
+import crew1 from "../Assets/Team/crew1.png";
+import crew2 from "../Assets/Team/crew2.png";
+import crew3 from "../Assets/Team/crew3.png";
+import crew4 from "../Assets/Team/crew4.png";
+import crew5 from "../Assets/Team/crew5.png";
+import crew6 from "../Assets/Team/crew6.png";
 import "../Styles/TeamStyle.css";
 
 const Team = () => {

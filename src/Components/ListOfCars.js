@@ -1,10 +1,10 @@
 import React from "react";
-import audi from "../Assets/audi.jpg";
-import bmw from "../Assets/bmw.jpg";
-import clio from "../Assets/clio.jpg";
-import megan from "../Assets/megan.jpg";
-import passat from "../Assets/passat.jpg";
-import golf from "../Assets/wwgolf.jpg";
+import audi from "../Assets/ListOfCars/audi.jpg";
+import bmw from "../Assets/ListOfCars/bmw.jpg";
+import clio from "../Assets/ListOfCars/clio.jpg";
+import megan from "../Assets/ListOfCars/megan.jpg";
+import passat from "../Assets/ListOfCars/passat.jpg";
+import golf from "../Assets/ListOfCars/wwgolf.jpg";
 import "../Styles/ListOfCarsStyle.css";
 
 const ListOfCars = () => {

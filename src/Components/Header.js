@@ -1,5 +1,5 @@
 import React from "react";
-import carrental from "../Assets/carrental.png";
+import carrental from "../Assets/HeaderLogo/carrental.png";
 import "../Styles/HeaderStyle.css";
 import { Link } from "react-router-dom";
 

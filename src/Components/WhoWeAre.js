@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/WhoWeAreStyle.css";
-import companyface1 from "../Assets/companyface1.jpg";
-import withcustomer from "../Assets/withcustomer.jpg";
+import companyface1 from "../Assets/AboutUs/companyface1.jpg";
+import withcustomer from "../Assets/AboutUs/withcustomer.jpg";
 import contactData from "../Data/ContactData.json";
 
 const WhoWeAre = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "../Styles/MobileHeaderStyle.css";
-import carrental from "../Assets/carrental.png";
+import carrental from "../Assets/HeaderLogo/carrental.png";
 
 const HamburgerHeaderComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
