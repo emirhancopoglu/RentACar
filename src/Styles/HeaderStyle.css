@@ -61,6 +61,21 @@
   color: orangered;
   transition: all 0.3s;
 }
+.turkishflag {
+  width: 24px;
+  height: 24px;
+  border-radius: 1rem;
+}
+.enflag {
+  width: 24px;
+  height: 24px;
+  border-radius: 1rem;
+}
+.flagdiv {
+  margin-left: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
 @media (max-width: 400px) and (min-width: 240px) {
   ul,
   li {

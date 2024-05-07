@@ -1,23 +1,22 @@
 import React, { useState } from "react";
 import "../Styles/FaqStyle.css";
 import accordionData from "../Data/Accordion";
-
+import { useTranslation } from "react-i18next";
 const Faq = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const handleAccordionClick = (index) => {
     setOpenIndex(index === openIndex ? null : index);
   };
+  const { t, i18n } = useTranslation();
 
   return (
     <div className="faqcontainer">
       <div className="faqtext">
-        <h3>SSS</h3>
-        <h2>Sıkça Sorulan Sorular</h2>
+        <h3>{t("FAQSSS")}</h3>
+        <h2>{t("FAQSSS2")}</h2>
 
-        <p className="faqtext-p">
-          Araç Kiralama Rezervasyon Süreci Hakkında Sıkça Sorulan Sorular
-        </p>
+        <p className="faqtext-p">{t("FAQSSS3")}</p>
       </div>
 
       <div className="accordion">

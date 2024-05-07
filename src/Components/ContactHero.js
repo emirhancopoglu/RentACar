@@ -1,31 +1,30 @@
 import React from "react";
 import "../Styles/ContactStyle.css";
+import { useTranslation } from "react-i18next";
 
 const ContactHero = () => {
+  const { t, i18n } = useTranslation();
   return (
     <div className="container">
       <div className="contact-div">
         <div className="contactinformation">
-          <h5 id="detailsh5">Ek bilgiyemi ihtiyacınız var?</h5>
-          <p>
-            15 yıldan daha fazla deneyimimizle yanınızdayız. Türkiye'nin en
-            güvenilir en uygun fiyatlı araba kiralama firması.
-          </p>
-          <a href="/">0535 456 98 32</a>
+          <h5 id="detailsh5">{t("ContactH")}</h5>
+          <p>{t("ContactP")}</p>
+          <a href="/">0535 555 55 55</a>
           <a href="/">carrental@gmail.com</a>
           <a href="/"> İstanbul </a>
         </div>
         <div className="contactformcontainer">
           <form>
-            <label>Adınız </label>
+            <label>{t("ContactPlaceholderFirst")} </label>
             <input type="text" required></input>
             <label>Email</label>
             <input type="text" required></input>
-            <label>Açıklamanız</label>
+            <label>{t("ContactPlaceholderSecond")}</label>
             <textarea id="textarea"></textarea>
 
             <a href="/">
-              <button>Gönder</button>
+              <button>{t("ContactButton")}</button>
             </a>
           </form>
         </div>

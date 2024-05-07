@@ -6,8 +6,10 @@ import megan from "../Assets/ListOfCars/megan.jpg";
 import passat from "../Assets/ListOfCars/passat.jpg";
 import golf from "../Assets/ListOfCars/wwgolf.jpg";
 import "../Styles/ListOfCarsStyle.css";
+import { useTranslation } from "react-i18next";
 
 const ListOfCars = () => {
+  const { t, i18n } = useTranslation();
   return (
     <div className="maincarcontainer">
       <div className="carcontainer">
@@ -21,15 +23,22 @@ const ListOfCars = () => {
                     <h6>Audi A1 {<br />}★★★★★ </h6>
                   </div>
                   <div className="car-price">
-                    <h6>3450₺ {<br />}Günlük </h6>
+                    <h6>
+                      3450₺ {<br />}
+                      {t("ListOfCarsDays")}{" "}
+                    </h6>
                   </div>
                 </div>
                 <div className="cardetails">
-                  <h6>Manuel {<br />} 2017</h6>
-                  <h6>Dizel</h6>
+                  <h6>
+                    {t("ListOfCarsManuel")} {<br />} 2017
+                  </h6>
+                  <h6>{t("ListOfCarsDiesel")}</h6>
                 </div>
                 <div className="car-go-button">
-                  <button className="rentbutton">Sürüşe Çık</button>
+                  <button className="rentbutton">
+                    {t("ListOfCarsButton")}
+                  </button>
                 </div>
               </div>
             </div>
@@ -45,15 +54,23 @@ const ListOfCars = () => {
                     <h6>Renault Megan {<br />}★★★★★ </h6>
                   </div>
                   <div className="car-price">
-                    <h6>3100₺ {<br />}Günlük </h6>
+                    <h6>
+                      3100₺ {<br />}
+                      {t("ListOfCarsDays")}{" "}
+                    </h6>
                   </div>
                 </div>
                 <div className="cardetails">
-                  <h6>Manuel {<br />} 2020</h6>
-                  <h6>Benzin</h6>
+                  <h6>
+                    {t("ListOfCarsManuel")} {<br />} 2020
+                  </h6>
+                  <h6>{t("ListOfCarsGasoline")}</h6>
                 </div>
                 <div className="car-go-button">
-                  <button className="rentbutton">Sürüşe Çık</button>
+                  <button className="rentbutton">
+                    {" "}
+                    {t("ListOfCarsButton")}
+                  </button>
                 </div>
               </div>
             </div>
@@ -69,15 +86,22 @@ const ListOfCars = () => {
                     <h6>Volkswagen Golf {<br />}★★★★ </h6>
                   </div>
                   <div className="car-price">
-                    <h6>2450₺ {<br />}Günlük </h6>
+                    <h6>
+                      2450₺ {<br />}
+                      {t("ListOfCarsDays")}{" "}
+                    </h6>
                   </div>
                 </div>
                 <div className="cardetails">
-                  <h6>Manuel {<br />} 2015</h6>
-                  <h6>Dizel</h6>
+                  <h6>
+                    {t("ListOfCarsManuel")} {<br />} 2015
+                  </h6>
+                  <h6>{t("ListOfCarsDiesel")}</h6>
                 </div>
                 <div className="car-go-button">
-                  <button className="rentbutton">Sürüşe Çık</button>
+                  <button className="rentbutton">
+                    {t("ListOfCarsButton")}
+                  </button>
                 </div>
               </div>
             </div>
@@ -95,15 +119,23 @@ const ListOfCars = () => {
                     <h6>Volkswagen Passat CC {<br />}★★★★ </h6>
                   </div>
                   <div className="car-price">
-                    <h6>2700₺ {<br />}Günlük </h6>
+                    <h6>
+                      2700₺ {<br />}
+                      {t("ListOfCarsDays")}{" "}
+                    </h6>
                   </div>
                 </div>
                 <div className="cardetails">
-                  <h6>Otomatik {<br />} 2017</h6>
-                  <h6>Benzin</h6>
+                  <h6>
+                    {t("ListOfCarsOtomatik")} {<br />} 2017
+                  </h6>
+                  <h6>{t("ListOfCarsGasoline")}</h6>
                 </div>
                 <div className="car-go-button">
-                  <button className="rentbutton">Sürüşe Çık</button>
+                  <button className="rentbutton">
+                    {" "}
+                    {t("ListOfCarsButton")}
+                  </button>
                 </div>
               </div>
             </div>
@@ -119,15 +151,23 @@ const ListOfCars = () => {
                     <h6>BMW 320 {<br />}★★★★★ </h6>
                   </div>
                   <div className="car-price">
-                    <h6>3000₺ {<br />}Günlük </h6>
+                    <h6>
+                      3000₺ {<br />}
+                      {t("ListOfCarsDays")}{" "}
+                    </h6>
                   </div>
                 </div>
                 <div className="cardetails">
-                  <h6>Manuel {<br />} 2015</h6>
-                  <h6>Dizel</h6>
+                  <h6>
+                    {t("ListOfCarsManuel")} {<br />} 2015
+                  </h6>
+                  <h6>{t("ListOfCarsDiesel")}</h6>
                 </div>
                 <div className="car-go-button">
-                  <button className="rentbutton">Sürüşe Çık</button>
+                  <button className="rentbutton">
+                    {" "}
+                    {t("ListOfCarsButton")}
+                  </button>
                 </div>
               </div>
             </div>
@@ -143,15 +183,23 @@ const ListOfCars = () => {
                     <h6>Renault Clio {<br />}★★★★ </h6>
                   </div>
                   <div className="car-price">
-                    <h6>2100₺ {<br />}Günlük </h6>
+                    <h6>
+                      2100₺ {<br />}
+                      {t("ListOfCarsDays")}{" "}
+                    </h6>
                   </div>
                 </div>
                 <div className="cardetails">
-                  <h6>Manuel {<br />} 2015</h6>
-                  <h6>Benzin</h6>
+                  <h6>
+                    {t("ListOfCarsManuel")} {<br />} 2015
+                  </h6>
+                  <h6>{t("ListOfCarsGasoline")}</h6>
                 </div>
                 <div className="car-go-button">
-                  <button className="rentbutton">Sürüşe Çık</button>
+                  <button className="rentbutton">
+                    {" "}
+                    {t("ListOfCarsButton")}
+                  </button>
                 </div>
               </div>
             </div>

@@ -1,9 +1,21 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import carrental from "../Assets/HeaderLogo/carrental.png";
 import "../Styles/HeaderStyle.css";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import turkishflag from "../Assets/HeaderFlags/turkishflag.jpg";
+import enflag from "../Assets/HeaderFlags/enflag.png";
 
 const Header = () => {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguagee = (lang) => {
+    i18n.changeLanguage(lang);
+    localStorage.setItem("lang", lang);
+    console.log(i18n.language);
+  };
+
   return (
     <div className="header">
       <div className="headerlogo">
@@ -13,32 +25,49 @@ const Header = () => {
       </div>
       <ul className="headerlinks">
         <a href="/">
-          <li>Anasayfa</li>
+          <li>{t("HeaderHome")}</li>
         </a>
         <Link to="/about">
-          <li>Hakkımızda</li>
+          <li>{t("HeaderAboutUs")}</li>
         </Link>
 
         <Link to="/carmodels">
-          <li>Araç Modelleri</li>
+          <li>{t("HeaderCarModels")}</li>
         </Link>
 
         <Link to="/team">
-          <li>Ekibimiz</li>
+          <li>{t("HeaderCrew")}</li>
         </Link>
 
         <Link to="/contact">
-          <li>İletişim</li>
+          <li>{t("HeaderContact")}</li>
         </Link>
       </ul>
       <div className="headerbutton">
         <Link to="/signup">
-          <button className="headersignup">Kaydol</button>
+          <button className="headersignup">{t("HeaderSignup")}</button>
         </Link>
 
         <Link to="/login">
-          <button className="headerlogin">Giriş</button>
+          <button className="headerlogin"> {t("HeaderLogin")}</button>
         </Link>
+      </div>
+      <div className="flagdiv">
+        {i18n.language === "en" ? (
+          <img
+            src={turkishflag}
+            alt="TurkishFlag"
+            className="turkishflag"
+            onClick={() => changeLanguagee("tr")}
+          ></img>
+        ) : (
+          <img
+            src={enflag}
+            alt="enFlag"
+            className="enflag"
+            onClick={() => changeLanguagee("en")}
+          ></img>
+        )}
       </div>
     </div>
   );

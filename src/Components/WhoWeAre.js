@@ -3,6 +3,7 @@ import "../Styles/WhoWeAreStyle.css";
 import companyface1 from "../Assets/AboutUs/companyface1.jpg";
 import withcustomer from "../Assets/AboutUs/withcustomer.jpg";
 import contactData from "../Data/ContactData.json";
+import { useTranslation } from "react-i18next";
 
 const WhoWeAre = () => {
   const whowearefirst = contactData.ContactData[0].whowearedata;
@@ -14,6 +15,7 @@ const WhoWeAre = () => {
   const textSecondWithLi = lines.map((line, index) => (
     <li key={index}>{line}</li>
   ));
+  const { t, i18n } = useTranslation();
   return (
     <div className="aboutmaincontainer">
       <div className="aboutcontainer">

@@ -1,13 +1,14 @@
 import React from "react";
 import "../Styles/RentCarForm.css";
-
+import { useTranslation } from "react-i18next";
 const RentCarForm = () => {
+  const { t, i18n } = useTranslation();
   return (
     <div className="rentcarcontainer">
       <div className="formcontainer">
         <form className="formdiv">
           <div className="selectcar">
-            <label>Aracınızı seçiniz</label>
+            <label>{t("FormSelectCar")}</label>
             <select>
               <option></option>
               <option value="VW Passat CC">VW Passat CC</option>
@@ -20,7 +21,7 @@ const RentCarForm = () => {
             </select>
           </div>
           <div className="selectcity">
-            <label>Alış yeri</label>
+            <label>{t("FormSalePlace")}</label>
             <select>
               <option></option>
               <option>İstanbul (Anadolu)</option>
@@ -30,7 +31,7 @@ const RentCarForm = () => {
             </select>
           </div>
           <div className="selectcityback">
-            <label>Dönüş yeri</label>
+            <label>{t("FormBackPlace")}</label>
             <select>
               <option></option>
               <option>İstanbul (Anadolu)</option>
@@ -40,15 +41,15 @@ const RentCarForm = () => {
             </select>
           </div>
           <div className="selectrentdate">
-            <label>Alış tarihi</label>
+            <label>{t("FormBuyDate")}</label>
             <input type="date"></input>
           </div>
           <div className="selectrentdateback">
-            <label>Dönüş tarihi</label>
+            <label>{t("FormReturnDate")}</label>
             <input type="date"></input>
           </div>
           <button className="sendbutton">
-            <div>Bul</div>
+            <div>{t("FormButton")}</div>
           </button>
         </form>
       </div>
