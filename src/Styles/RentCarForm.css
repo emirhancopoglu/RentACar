@@ -8,6 +8,16 @@
   height: auto;
   padding: 4rem 4.5rem 5rem 5.5rem;
 }
+.formcontainerbackground {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 0 rgb(0 0 0 / 18%);
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 4rem 4.5rem 5rem 5.5rem;
+  width: 60rem;
+}
 
 .formdiv {
   grid-gap: 2rem;
@@ -151,6 +161,16 @@ input {
     border-radius: 3px;
     padding-inline-start: 0;
   }
+  .formcontainerbackground {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 18%);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 4rem 1rem 4rem 1rem;
+    width: 100%;
+  }
 }
 @media (max-width: 1024px) and (min-width: 769px) {
   .formdiv {
@@ -230,5 +250,27 @@ input {
     border: 1px solid #ccd7e6;
     border-radius: 3px;
     padding-inline-start: 0;
+  }
+  .formcontainerbackground {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 18%);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 4rem 1rem 4rem 1rem;
+    width: 100%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1147px) {
+  .formcontainerbackground {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 18%);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 4rem 1rem 4rem 1rem;
+    width: 61rem;
   }
 }
