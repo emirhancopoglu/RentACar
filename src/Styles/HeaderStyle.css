@@ -11,6 +11,13 @@
   text-decoration: none;
   list-style-type: none;
 }
+.headerlinksbuttonscontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
 .headerlinks li {
   display: inline;
   font-size: 1rem;
@@ -23,7 +30,10 @@
 }
 
 .headerbutton {
-  margin-left: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .headersignup {
@@ -32,7 +42,7 @@
   color: black;
   border: none;
   background-color: white;
-  margin-right: 2rem;
+
   cursor: pointer;
   transition: all 0.9s;
 }
@@ -73,8 +83,6 @@
 }
 .flagdiv {
   margin-left: 1rem;
-  display: flex;
-  gap: 0.5rem;
 }
 @media (max-width: 400px) and (min-width: 240px) {
   ul,

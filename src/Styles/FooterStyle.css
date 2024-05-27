@@ -119,11 +119,13 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
   }
   .footercontainer {
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 100%;
     align-items: center;
     align-content: center;
   }
@@ -140,6 +142,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3rem 0rem 3rem 0rem;
   }
   .footercontent li {
     text-align: center;
@@ -152,6 +155,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3rem 0rem 3rem 0rem;
   }
   .submit-email {
     background-color: #ff4d30;

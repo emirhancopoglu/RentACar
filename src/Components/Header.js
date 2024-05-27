@@ -23,51 +23,52 @@ const Header = () => {
           <img src={carrental} alt="Car Rental Logo"></img>
         </a>
       </div>
-      <ul className="headerlinks">
-        <a href="/">
-          <li>{t("HeaderHome")}</li>
-        </a>
-        <Link to="/about">
-          <li>{t("HeaderAboutUs")}</li>
-        </Link>
+      <div className="headerlinksbuttonscontainer">
+        <ul className="headerlinks">
+          <a href="/">
+            <li>{t("HeaderHome")}</li>
+          </a>
+          <Link to="/about">
+            <li>{t("HeaderAboutUs")}</li>
+          </Link>
 
-        <Link to="/carmodels">
-          <li>{t("HeaderCarModels")}</li>
-        </Link>
+          <Link to="/carmodels">
+            <li>{t("HeaderCarModels")}</li>
+          </Link>
 
-        <Link to="/team">
-          <li>{t("HeaderCrew")}</li>
-        </Link>
+          <Link to="/team">
+            <li>{t("HeaderCrew")}</li>
+          </Link>
 
-        <Link to="/contact">
-          <li>{t("HeaderContact")}</li>
-        </Link>
-      </ul>
-      <div className="headerbutton">
-        <Link to="/signup">
-          <button className="headersignup">{t("HeaderSignup")}</button>
-        </Link>
+          <Link to="/contact">
+            <li>{t("HeaderContact")}</li>
+          </Link>
+        </ul>
+        <div className="headerbutton">
+          <Link to="/signup">
+            <button className="headersignup">{t("HeaderSignup")}</button>
+          </Link>
 
-        <Link to="/login">
-          <button className="headerlogin"> {t("HeaderLogin")}</button>
-        </Link>
-      </div>
-      <div className="flagdiv">
-        {i18n.language === "en" ? (
-          <img
-            src={turkishflag}
-            alt="TurkishFlag"
-            className="turkishflag"
-            onClick={() => changeLanguagee("tr")}
-          ></img>
-        ) : (
-          <img
-            src={enflag}
-            alt="enFlag"
-            className="enflag"
-            onClick={() => changeLanguagee("en")}
-          ></img>
-        )}
+          <Link to="/login">
+            <button className="headerlogin"> {t("HeaderLogin")}</button>
+          </Link>
+
+          {i18n.language === "en" ? (
+            <img
+              src={turkishflag}
+              alt="TurkishFlag"
+              className="turkishflag"
+              onClick={() => changeLanguagee("tr")}
+            ></img>
+          ) : (
+            <img
+              src={enflag}
+              alt="enFlag"
+              className="enflag"
+              onClick={() => changeLanguagee("en")}
+            ></img>
+          )}
+        </div>
       </div>
     </div>
   );
