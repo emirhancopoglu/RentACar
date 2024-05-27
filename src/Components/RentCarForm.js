@@ -42,11 +42,11 @@ const RentCarForm = () => {
           </div>
           <div className="selectrentdate">
             <label>{t("FormBuyDate")}</label>
-            <input type="date"></input>
+            <input className="selectrentdateinput" type="date"></input>
           </div>
           <div className="selectrentdateback">
             <label>{t("FormReturnDate")}</label>
-            <input type="date"></input>
+            <input type="date" className="selectrentdatebackinput"></input>
           </div>
           <button className="sendbutton">
             <div>{t("FormButton")}</div>

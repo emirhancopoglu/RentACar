@@ -27,7 +27,7 @@ select {
   border-radius: 3px;
 }
 input {
-  width: auto;
+  width: 100%;
   height: 3rem;
   color: #504f4f;
   font-weight: 600;
@@ -119,25 +119,38 @@ input {
   .selectcityback {
     width: 100%;
   }
-  .selectrentdate {
-    width: 100%;
-  }
-  .selectrentdate input {
-    width: 100%;
-  }
-  .selectcityback {
-    width: 100%;
-  }
-  .selectrentdateback {
-    width: 100%;
-  }
-  .selectrentdateback input {
+  .selectcityback select {
     width: 100%;
     height: 3rem;
     color: #504f4f;
     font-weight: 600;
     border: 1px solid #ccd7e6;
     border-radius: 3px;
+  }
+  .selectrentdate {
+    width: 100%;
+  }
+  .selectrentdateinput {
+    width: 100%;
+    height: 3rem;
+    color: #504f4f;
+    font-weight: 600;
+    border: 1px solid #ccd7e6;
+    border-radius: 3px;
+    padding-inline-start: 0;
+  }
+
+  .selectrentdateback {
+    width: 100%;
+  }
+  .selectrentdatebackinput {
+    width: 100%;
+    height: 3rem;
+    color: #504f4f;
+    font-weight: 600;
+    border: 1px solid #ccd7e6;
+    border-radius: 3px;
+    padding-inline-start: 0;
   }
 }
 @media (max-width: 1024px) and (min-width: 768px) {
@@ -186,24 +199,37 @@ input {
   .selectcityback {
     width: 100%;
   }
-  .selectrentdate {
-    width: 100%;
-  }
-  .selectrentdate input {
-    width: 100%;
-  }
-  .selectcityback {
-    width: 100%;
-  }
-  .selectrentdateback {
-    width: 100%;
-  }
-  .selectrentdateback input {
+  .selectcityback select {
     width: 100%;
     height: 3rem;
     color: #504f4f;
     font-weight: 600;
     border: 1px solid #ccd7e6;
     border-radius: 3px;
+  }
+  .selectrentdate {
+    width: 100%;
+  }
+  .selectrentdateinput {
+    width: 100%;
+    height: 3rem;
+    color: #504f4f;
+    font-weight: 600;
+    border: 1px solid #ccd7e6;
+    border-radius: 3px;
+    padding-inline-start: 0;
+  }
+
+  .selectrentdateback {
+    width: 100%;
+  }
+  .selectrentdatebackinput {
+    width: 100%;
+    height: 3rem;
+    color: #504f4f;
+    font-weight: 600;
+    border: 1px solid #ccd7e6;
+    border-radius: 3px;
+    padding-inline-start: 0;
   }
 }
