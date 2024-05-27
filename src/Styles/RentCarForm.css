@@ -19,7 +19,6 @@
   width: 60rem;
 }
 select {
-  width: auto;
   height: 3rem;
   color: #504f4f;
   font-weight: 600;
@@ -128,10 +127,10 @@ input {
     border-radius: 3px;
   }
   .selectrentdate {
-    width: 100%;
+    width: 100% !important;
   }
   .selectrentdateinput {
-    width: 100%;
+    width: 100% !important;
     height: 3rem;
     color: #504f4f;
     font-weight: 600;
@@ -141,10 +140,10 @@ input {
   }
 
   .selectrentdateback {
-    width: 100%;
+    width: 100% !important;
   }
   .selectrentdatebackinput {
-    width: 100%;
+    width: 100% !important;
     height: 3rem;
     color: #504f4f;
     font-weight: 600;
@@ -153,7 +152,7 @@ input {
     padding-inline-start: 0;
   }
 }
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 1024px) and (min-width: 769px) {
   .formdiv {
     display: flex;
     flex-direction: column;
@@ -208,10 +207,10 @@ input {
     border-radius: 3px;
   }
   .selectrentdate {
-    width: 100%;
+    width: 100% !important;
   }
   .selectrentdateinput {
-    width: 100%;
+    width: 100% !important;
     height: 3rem;
     color: #504f4f;
     font-weight: 600;
@@ -221,10 +220,10 @@ input {
   }
 
   .selectrentdateback {
-    width: 100%;
+    width: 100% !important;
   }
   .selectrentdatebackinput {
-    width: 100%;
+    width: 100% !important;
     height: 3rem;
     color: #504f4f;
     font-weight: 600;

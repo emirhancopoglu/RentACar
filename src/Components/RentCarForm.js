@@ -42,11 +42,19 @@ const RentCarForm = () => {
           </div>
           <div className="selectrentdate">
             <label>{t("FormBuyDate")}</label>
-            <input className="selectrentdateinput" type="date"></input>
+            <input
+              className="selectrentdateinput"
+              type="date"
+              style={{ width: "100%" }}
+            ></input>
           </div>
           <div className="selectrentdateback">
             <label>{t("FormReturnDate")}</label>
-            <input type="date" className="selectrentdatebackinput"></input>
+            <input
+              type="date"
+              className="selectrentdatebackinput"
+              style={{ width: "100%" }}
+            ></input>
           </div>
           <button className="sendbutton">
             <div>{t("FormButton")}</div>
