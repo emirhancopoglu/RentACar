@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1cbb1947.css",
+    "main.css": "/static/css/main.323da69b.css",
     "main.js": "/static/js/main.affac3d8.js",
     "static/media/herocar.png": "/static/media/herocar.f5b2a36d41732b2bf351.png",
     "static/media/withcustomer.jpg": "/static/media/withcustomer.b10bf7bc243d16648674.jpg",
@@ -22,11 +22,11 @@
     "static/media/enflag.png": "/static/media/enflag.7e8b4819374ba776c4c3.png",
     "static/media/bmw.jpg": "/static/media/bmw.0edf8a09c21a15eb80b5.jpg",
     "index.html": "/index.html",
-    "main.1cbb1947.css.map": "/static/css/main.1cbb1947.css.map",
+    "main.323da69b.css.map": "/static/css/main.323da69b.css.map",
     "main.affac3d8.js.map": "/static/js/main.affac3d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cbb1947.css",
+    "static/css/main.323da69b.css",
     "static/js/main.affac3d8.js"
   ]
 }

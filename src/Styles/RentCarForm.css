@@ -90,27 +90,49 @@ input {
   .formdiv button {
     width: 100%;
   }
-  .formdiv input {
-    width: 14.815rem;
+
+  .formcontainer {
+    padding: 4rem 1rem 0rem 1rem;
+  }
+  .selectcar {
+    width: 100%;
   }
   .selectcar select {
-    width: 15rem;
+    width: 100%;
     height: 3rem;
     color: #504f4f;
     font-weight: 600;
     border: 1px solid #ccd7e6;
     border-radius: 3px;
+  }
+  .selectcity {
+    width: 100%;
   }
   .selectcity select {
-    width: 15rem;
+    width: 100%;
     height: 3rem;
     color: #504f4f;
     font-weight: 600;
     border: 1px solid #ccd7e6;
     border-radius: 3px;
   }
-  .selectcityback select {
-    width: 15rem;
+  .selectcityback {
+    width: 100%;
+  }
+  .selectrentdate {
+    width: 100%;
+  }
+  .selectrentdate input {
+    width: 100%;
+  }
+  .selectcityback {
+    width: 100%;
+  }
+  .selectrentdateback {
+    width: 100%;
+  }
+  .selectrentdateback input {
+    width: 100%;
     height: 3rem;
     color: #504f4f;
     font-weight: 600;
@@ -136,27 +158,48 @@ input {
   .sendbutton div {
     justify-content: center;
   }
-  .formdiv input {
-    width: 14.815rem;
+  .formcontainer {
+    padding: 4rem 1rem 0rem 1rem;
+  }
+  .selectcar {
+    width: 100%;
   }
   .selectcar select {
-    width: 15rem;
+    width: 100%;
     height: 3rem;
     color: #504f4f;
     font-weight: 600;
     border: 1px solid #ccd7e6;
     border-radius: 3px;
+  }
+  .selectcity {
+    width: 100%;
   }
   .selectcity select {
-    width: 15rem;
+    width: 100%;
     height: 3rem;
     color: #504f4f;
     font-weight: 600;
     border: 1px solid #ccd7e6;
     border-radius: 3px;
   }
-  .selectcityback select {
-    width: 15rem;
+  .selectcityback {
+    width: 100%;
+  }
+  .selectrentdate {
+    width: 100%;
+  }
+  .selectrentdate input {
+    width: 100%;
+  }
+  .selectcityback {
+    width: 100%;
+  }
+  .selectrentdateback {
+    width: 100%;
+  }
+  .selectrentdateback input {
+    width: 100%;
     height: 3rem;
     color: #504f4f;
     font-weight: 600;
