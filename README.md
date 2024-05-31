@@ -1,5 +1,9 @@
   <h1>LİVE DEMO : <a href="https://rentcarwithreact.netlify.app"> RENT A CAR</a></h1>
 
+<ul>
+
+<li>react-i18next</li>
+  </ul>
  ### Anasayfa
 <b>Ziyaretçi web sayfasına girdiğinde karşısına ilk çıkan görüntü ; </b>
 
