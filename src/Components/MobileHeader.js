@@ -20,7 +20,6 @@ const HamburgerHeaderComponent = () => {
   const changeLanguagee = (lang) => {
     i18n.changeLanguage(lang);
     localStorage.setItem("lang", lang);
-    console.log(i18n.language);
   };
 
   const { t, i18n } = useTranslation();

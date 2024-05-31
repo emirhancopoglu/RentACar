@@ -38,7 +38,7 @@
 }
 
 .accordion-content {
-  padding: 10px;
+  padding: 1.8rem 4.5rem;
   background-color: #fff;
   transition: 0.15s ease;
 }

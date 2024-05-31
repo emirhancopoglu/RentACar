@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../Styles/FaqStyle.css";
-import accordionData from "../Data/Accordion";
+
 import { useTranslation } from "react-i18next";
 const Faq = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -9,6 +9,30 @@ const Faq = () => {
     setOpenIndex(index === openIndex ? null : index);
   };
   const { t, i18n } = useTranslation();
+
+  const accordionData = [
+    {
+      title: t("FAQS1"),
+      content: t("FAQS1Answer"),
+    },
+    {
+      title: t("FAQS2"),
+      content: t("FAQS2Answer"),
+    },
+
+    {
+      title: t("FAQS3"),
+      content: t("FAQS3Answer"),
+    },
+    {
+      title: t("FAQS4"),
+      content: t("FAQS4Answer"),
+    },
+    {
+      title: t("FAQS5"),
+      content: t("FAQS5Answer"),
+    },
+  ];
 
   return (
     <div className="faqcontainer">
