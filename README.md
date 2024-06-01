@@ -1,14 +1,12 @@
   <h1>LİVE DEMO : <a href="https://rentcarwithreact.netlify.app"> RENT A CAR</a></h1>
 
 <ul>
-
 <li>react-i18next</li>
   </ul>
- ### Anasayfa
-<b>Ziyaretçi web sayfasına girdiğinde karşısına ilk çıkan görüntü ; </b>
 
 
-
+  
+### Anasayfa
 https://github.com/emirhancopoglu/RentACar-ReactJS/assets/95498082/bbe7f55e-133d-4923-9be1-869b773f28a0
 
 
@@ -26,7 +24,7 @@ https://github.com/emirhancopoglu/RentACar-ReactJS/assets/95498082/a9eee761-d825
 https://github.com/emirhancopoglu/RentACar-ReactJS/assets/95498082/69b21102-e545-414a-b779-78905431e7df
 
 ##
-### iletişim
+### İletişim
 https://github.com/emirhancopoglu/RentACar-ReactJS/assets/95498082/7fae6036-a178-452f-914e-9a80152b3a2e
 
 
