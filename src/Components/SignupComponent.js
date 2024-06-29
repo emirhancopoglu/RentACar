@@ -1,11 +1,17 @@
 import React from "react";
 import "../Styles/SignupStyle.css";
 import { useTranslation } from "react-i18next";
-
+import { motion } from "framer-motion";
 const SignupComponent = () => {
   const { t, i18n } = useTranslation();
   return (
-    <div className="signupmaincontainer">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 2 }}
+      viewport={{ once: true }}
+      className="signupmaincontainer"
+    >
       <div className="giris">
         <div className="form">
           <form className="kayit" id="signup-form">
@@ -29,7 +35,7 @@ const SignupComponent = () => {
           </form>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -7,11 +7,17 @@ import crew5 from "../Assets/Team/crew5.png";
 import crew6 from "../Assets/Team/crew6.png";
 import "../Styles/TeamStyle.css";
 import { useTranslation } from "react-i18next";
-
+import { motion } from "framer-motion";
 const Team = () => {
   const { t, i18n } = useTranslation();
   return (
-    <div className="teamcontainer">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 2 }}
+      viewport={{ once: true }}
+      className="teamcontainer"
+    >
       <div className="crewcontainer">
         <div className="crewmember">
           <div className="crewmemberimg">
@@ -70,7 +76,7 @@ const Team = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

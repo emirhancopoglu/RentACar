@@ -7,11 +7,18 @@ import passat from "../Assets/ListOfCars/passat.jpg";
 import golf from "../Assets/ListOfCars/wwgolf.jpg";
 import "../Styles/ListOfCarsStyle.css";
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
 
 const ListOfCars = () => {
   const { t, i18n } = useTranslation();
   return (
-    <div className="maincarcontainer">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 2 }}
+      viewport={{ once: true }}
+      className="maincarcontainer"
+    >
       <div className="carcontainer">
         <div className="car-div">
           <div className="car-img">
@@ -206,7 +213,7 @@ const ListOfCars = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

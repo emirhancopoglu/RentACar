@@ -1,10 +1,17 @@
 import React from "react";
 import "../Styles/RentCarForm.css";
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
 const RentCarForm = () => {
   const { t, i18n } = useTranslation();
   return (
-    <div className="rentcarcontainer">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 2 }}
+      viewport={{ once: true }}
+      className="rentcarcontainer"
+    >
       <div className="formcontainer">
         <div className="formcontainerbackground">
           <form className="formdiv">
@@ -63,7 +70,7 @@ const RentCarForm = () => {
           </form>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

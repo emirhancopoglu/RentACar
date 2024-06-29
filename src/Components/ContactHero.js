@@ -1,11 +1,17 @@
 import React from "react";
 import "../Styles/ContactStyle.css";
 import { useTranslation } from "react-i18next";
-
+import { motion } from "framer-motion";
 const ContactHero = () => {
   const { t, i18n } = useTranslation();
   return (
-    <div className="container">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 2 }}
+      viewport={{ once: true }}
+      className="container"
+    >
       <div className="contact-div">
         <div className="contactinformation">
           <h5 id="detailsh5">{t("ContactH")}</h5>
@@ -29,7 +35,7 @@ const ContactHero = () => {
           </form>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

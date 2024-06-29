@@ -4,10 +4,17 @@ import operator from "../Assets/Information/operator.png";
 import car from "../Assets/Information/car.png";
 import "../Styles/Information.css";
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
 const İnformation = () => {
   const { t, i18n } = useTranslation();
   return (
-    <div className="informationcontainer">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 2 }}
+      viewport={{ once: true }}
+      className="informationcontainer"
+    >
       <h1 className="companyslogan">{t("InformationHead")}</h1>
       <div className="info">
         <div className="infoselectcar">
@@ -26,7 +33,7 @@ const İnformation = () => {
           <p className="infoselectcarp">{t("InformationThirdP")}</p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

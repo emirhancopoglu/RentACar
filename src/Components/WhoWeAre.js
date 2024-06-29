@@ -3,13 +3,19 @@ import "../Styles/WhoWeAreStyle.css";
 import companyface1 from "../Assets/AboutUs/companyface1.jpg";
 import withcustomer from "../Assets/AboutUs/withcustomer.jpg";
 import { useTranslation } from "react-i18next";
-
+import { motion } from "framer-motion";
 const WhoWeAre = () => {
   const { t, i18n } = useTranslation();
 
   return (
     <div className="aboutmaincontainer">
-      <div className="aboutcontainer">
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 2 }}
+        viewport={{ once: true }}
+        className="aboutcontainer"
+      >
         <div className="about">
           <img src={companyface1} alt="Company Face"></img>
           <div className="aboutcontainer-text">
@@ -21,8 +27,14 @@ const WhoWeAre = () => {
             </h5>
           </div>
         </div>
-      </div>
-      <div className="aboutcontainer">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 2 }}
+        viewport={{ once: true }}
+        className="aboutcontainer"
+      >
         <div className="about">
           <img src={withcustomer} alt="Customer"></img>
           <div className="aboutcontainer-text">
@@ -41,7 +53,7 @@ const WhoWeAre = () => {
             </h5>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

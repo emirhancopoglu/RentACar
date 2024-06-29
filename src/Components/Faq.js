@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../Styles/FaqStyle.css";
-
+import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 const Faq = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -35,7 +35,13 @@ const Faq = () => {
   ];
 
   return (
-    <div className="faqcontainer">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 2 }}
+      viewport={{ once: true }}
+      className="faqcontainer"
+    >
       <div className="faqtext">
         <h3>{t("FAQSSS")}</h3>
         <h2>{t("FAQSSS2")}</h2>
@@ -59,7 +65,7 @@ const Faq = () => {
           </div>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

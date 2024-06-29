@@ -2,11 +2,17 @@ import React from "react";
 import herocar from "../Assets//Hero/herocar.png";
 import "../Styles/HeroStyle.css";
 import { useTranslation } from "react-i18next";
-
+import { motion } from "framer-motion";
 const Hero = () => {
   const { t, i18n } = useTranslation();
   return (
-    <div className="herocontainer">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 2 }}
+      viewport={{ once: true }}
+      className="herocontainer"
+    >
       <div className="herotextbuttonscontainer">
         <div className="herotext">
           <h4>{t("HomeHeroP1")}</h4>
@@ -31,7 +37,7 @@ const Hero = () => {
       <div>
         <img className="herocar" src={herocar} alt="HeroCar"></img>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

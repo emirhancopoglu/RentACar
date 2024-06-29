@@ -6,6 +6,7 @@ import Footer from "../Components/Footer";
 import MobileHeader from "../Components/MobileHeader";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
+
 const About = () => {
   const { t, i18n } = useTranslation();
   return (

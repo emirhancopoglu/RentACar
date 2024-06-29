@@ -1,11 +1,17 @@
 import React from "react";
 import "../Styles/LoginStyles.css";
 import { useTranslation } from "react-i18next";
-
+import { motion } from "framer-motion";
 const LoginComponent = () => {
   const { t, i18n } = useTranslation();
   return (
-    <div className="loginmaincontainer">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 2 }}
+      viewport={{ once: true }}
+      className="loginmaincontainer"
+    >
       <div className="logincontainer">
         <div className="giris">
           <div className="form">
@@ -27,7 +33,7 @@ const LoginComponent = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
