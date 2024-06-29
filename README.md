@@ -2,6 +2,7 @@
 
 <ul>
 <li>react-i18next</li>
+<li>react-helmet</li>
   </ul>
 
 
