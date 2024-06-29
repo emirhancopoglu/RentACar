@@ -1,8 +1,10 @@
   <h1>LİVE DEMO : <a href="https://rentcarwithreact.netlify.app"> RENT A CAR</a></h1>
-
+<h3>Kullandığım Kütüphaneler </h3>
 <ul>
+
 <li>react-i18next</li>
 <li>react-helmet</li>
+<li>framer-motion</li>
   </ul>
 
 
